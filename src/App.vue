@@ -1,15 +1,15 @@
 <template>
-  <div id='app'>
-    <p>hello</p>
+  <div id="app">
+    <impress-demo />
   </div>
 </template>
 
-
-
-<style lang='scss' scoped>
-#app {
-  width: 100px;
-  height: 100px;
-  background: $color-base;
+<script>
+import ImpressDemo from './views/welcome/index.vue'
+export default {
+  components: { ImpressDemo }
 }
+</script>
+<style lang='scss' scoped>
+
 </style>

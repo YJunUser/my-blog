@@ -1,7 +1,7 @@
 
-const path = require('path');
-function resolve (dir) {
-  return path.join(__dirname, '.', dir);
+const path = require('path')
+function resolve(dir) {
+  return path.join(__dirname, '.', dir)
 }
 
 module.exports = {
@@ -15,6 +15,9 @@ module.exports = {
         layout: '@/layout',
         utils: '@/utils'
       }
+    },
+    externals: {
+      impress: 'impress'
     }
   },
   // ...
@@ -26,12 +29,12 @@ module.exports = {
       }
     }
   },
-   // icon的设置
+  // icon的设置
   chainWebpack: config => {
     config.module
       .rule('svg')
       .exclude.add(resolve('src/icons'))
-      .end();
+      .end()
 
     config.module
       .rule('icons')
@@ -42,6 +45,6 @@ module.exports = {
       .loader('svg-sprite-loader')
       .options({
         symbolId: 'icon-[name]'
-      });
+      })
   }
 }
