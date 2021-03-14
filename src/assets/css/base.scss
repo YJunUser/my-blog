@@ -13,13 +13,13 @@ body {
     font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif,'Microsoft YaHei UI';
     user-select: none; /* 禁止用户鼠标在页面上选中文字/图片等 */
     -webkit-tap-highlight-color: transparent; /* webkit是苹果浏览器引擎，tap点击，highlight背景高亮，color颜色，颜色用数值调节 */
-    background: $color-background;
-    color: $color-text;
+    background: #131417;
+    color: white;
     width: 100vw;
 }
 
 a {
-    color: $color-text;
+    color: #000000;
     text-decoration: none;
   }
 
