@@ -11,8 +11,18 @@ const routes = [
   },
   {
     path: '/text',
-    name: 'text',
+    name: 'TextCom',
     component: () => import('@/views/text/index.vue')
+  },
+  {
+    path: '/collection',
+    name: 'Collection',
+    component: () => import('@/views/collection/index.vue')
+  },
+  {
+    path: '/help',
+    name: 'Help',
+    component: () => import('@/views/help/index.vue')
   }
 ]
 

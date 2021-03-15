@@ -1,5 +1,9 @@
 // base color
 $color-base: #717790;
+$color_white: #fff;
+$color_prime: #5ad67d;
+$color_grey: #e2e2e2;
+$color_grey_dark: #a2a2a2;
 // mixin
 @mixin baseButton {
     padding: .3rem .8rem;
@@ -19,8 +23,9 @@ $color-base: #717790;
   
 
 // base size
-
-
+$navtab-width: 20rem;
+$navtab-item-width: calc(#{$navtab-width} / 4 - 1.2rem);
+$navtab-overlay-width: calc(#{$navtab-item-width} + 3rem);
 // sidebar
 
 

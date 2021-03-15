@@ -21,50 +21,34 @@
       >
         <div class="about">关于我:
           <div class="abount-content">网名: xiaoyao <br> 职业: 学生 <br> 就读大学: 重庆交通大学 <br> 擅长技术: js, html, css ,vue, html5, css3 <br> 个人简介: 一位无名小生， 凭借着热情和兴趣一直在前端领域学习
-
           </div>
         </div>
       </div>
 
       <div id="step-2" class="step" data-x="420" data-y="-70" data-z="-250" data-rotate-z="45" data-rotate-y="-45" data-rotate-order="zyx">
-        <p>博客用了大量</p>
+        <p class="phare-content">博客用了大量CSS3的动画，也借鉴了很多网上的美丽又强大的动画</p>
+        <p class="phare-content">把鼠标放在下面这张图片上试试: </p>
+        <div class="scene"><div class="card">
+          <div class="card__face card__face--front">
+            <img src="https://i.loli.net/2019/11/23/cnKl1Ykd5rZCVwm.jpg">
+          </div>
+          <div class="card__face card__face--back">
+            <img src="https://i.loli.net/2019/11/16/cqyJiYlRwnTeHmj.jpg">
+          </div>
+        </div>
+        </div>
+
       </div>
 
       <div id="step-3" class="step" data-x="700" data-y="350" data-z="-350" data-rotate-z="90" data-rotate-y="-90" data-rotate-order="zyx">
-        <p>Slide three</p>
+        <p class="phare-content">我写博客主要是为了能记录生活中的一些趣事，也是为了舒缓下压力，一件事，只要愿意去做并且认真去做，总会发现其中的趣味和意义。我写博客，发现了其中的好处，并且将这美好的感受分享给各位。希望我的博客能带给你一些欢乐!</p>
       </div>
 
       <div id="step-4" class="step" data-x="422" data-y="780" data-z="-250" data-rotate-z="135" data-rotate-y="-135" data-rotate-order="zyx">
-        <button class="btn btn-primary btn-ghost btn-shine" @click="gohome">
-          go
+        <button class="btn btn-primary btn-ghost btn-shine btn-position" @click="gohome">
+          进去探索关于我的世界
         </button>
       </div>
-
-      <!-- <div id="step-5" class="step" data-x="0" data-y="702" data-z="0" data-rotate-z="180" data-rotate-y="-180" data-rotate-order="zyx">
-        <p>Slide five</p>
-      </div>
-
-      <div id="step-6" class="step" data-x="379" data-y="780" data-z="270" data-rotate-z="135" data-rotate-y="-225" data-rotate-order="zyx">
-        <p>Slide six</p>
-      </div>
-
-      <div id="step-7" class="step" data-x="700" data-y="350" data-z="350" data-rotate-z="90" data-rotate-y="-270" data-rotate-order="zyx">
-        <p @click="gohome">Slide seven</p>
-      </div> -->
-
-      <!-- <div
-        id="step-8"
-        class="step"
-        data-x="379"
-        data-y="-70"
-        data-z="270"
-        data-rotate-z="45"
-        data-rotate-y="-315"
-        data-rotate-order="zyx"
-        data-goto-next="step-1"
-      >
-        <p>Slide eight</p>
-      </div> -->
     </div>
   </div>
 
@@ -272,6 +256,58 @@ body {
 
     &:hover::before {
       transform: translateX(100%);
+    }
+  }
+}
+.phare-content {
+  color: #000000;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.btn-position {
+  position: absolute;
+  left: calc(50% - 8rem);
+  top: calc(50% - 2rem);
+}
+.scene {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  perspective: 800px;
+
+  .card {
+    position: relative;
+    width: 240px;
+    height: 300px;
+    color: white;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+    transform-style: preserve-3d;
+
+    &:hover {
+      transform: rotateY(0.5turn);
+    }
+
+    .card__face {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      transition: 1s ease-in-out;
+      -webkit-box-reflect: below 0
+        linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.4));
+
+      img {
+        width: 240px;
+        height: 300px;
+        object-fit: cover;
+      }
+
+      &--back {
+        transform: rotateY(0.5turn);
+      }
     }
   }
 }

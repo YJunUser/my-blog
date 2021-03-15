@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <impress-demo v-if="showImpress" />
-    <nav-bar v-if="!showImpress" />
-    <router-view />
+    <keep-alive v-else><nav-bar /></keep-alive>
+    <keep-alive><router-view /></keep-alive>
+
   </div>
 </template>
 

@@ -1,5 +1,8 @@
 <template>
   <div class="home-date">
+    <div class="page-title">
+      <h1>这里有我的一些文艺</h1>
+    </div>
     <div class="blog-slider">
       <div class="blog-slider__wrp swiper-wrapper">
         <div class="blog-slider__item swiper-slide">
@@ -7,8 +10,8 @@
             <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759872/kuldar-kalvik-799168-unsplash.jpg" alt="">
           </div>
           <div class="blog-slider__content">
-            <span class="blog-slider__code">2021年3月14日 二月初二 星期日</span>
-            <div class="blog-slider__title">15~26℃</div>
+            <span class="blog-slider__code">2021年2月17日 正月初六 星期三</span>
+            <div class="blog-slider__title">10~15℃</div>
             <div class="blog-slider__text">世界上本无沙漠, 当我想你一次, 便落下一滴沙, 越来越多后，就有了撒哈拉大沙漠.  </div>
             <span class="blog-slider__button">右滑获取更多内容</span>
           </div>
@@ -18,8 +21,8 @@
             <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759871/jason-leung-798979-unsplash.jpg" alt="">
           </div>
           <div class="blog-slider__content">
-            <span class="blog-slider__code">2021年3月14日 二月初二 星期日</span>
-            <div class="blog-slider__title">15~26℃</div>
+            <span class="blog-slider__code">2021年2月20日 正月初九 星期六</span>
+            <div class="blog-slider__title">17~19℃</div>
             <div class="blog-slider__text">车站有两个地方最感人, 一个入口, 一个出口, 一个是不想让你走, 一个是等你回来. </div>
             <span class="blog-slider__button">右滑获取更多内容</span>
           </div>
@@ -30,9 +33,86 @@
             <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759871/alessandro-capuzzi-799180-unsplash.jpg" alt="">
           </div>
           <div class="blog-slider__content">
-            <span class="blog-slider__code">2021年3月14日 二月初二 星期日</span>
-            <div class="blog-slider__title">15~26℃</div>
+            <span class="blog-slider__code">2021年2月24日 正月十三 星期三</span>
+            <div class="blog-slider__title">18~22℃</div>
             <div class="blog-slider__text">乱山残雪夜, 孤烛异乡人. </div>
+            <span class="blog-slider__button">右滑获取更多内容</span>
+          </div>
+        </div>
+        <div class="blog-slider__item swiper-slide">
+          <div class="blog-slider__img">
+            <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759871/alessandro-capuzzi-799180-unsplash.jpg" alt="">
+          </div>
+          <div class="blog-slider__content">
+            <span class="blog-slider__code">2021年2月26日 正月十五 星期五</span>
+            <div class="blog-slider__title">16~25℃</div>
+            <div class="blog-slider__text">没有什么能把我打败! </div>
+            <span class="blog-slider__button">右滑获取更多内容</span>
+          </div>
+        </div>
+        <div class="blog-slider__item swiper-slide">
+          <div class="blog-slider__img">
+            <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759871/alessandro-capuzzi-799180-unsplash.jpg" alt="">
+          </div>
+          <div class="blog-slider__content">
+            <span class="blog-slider__code">2021年2月28日 正月十七 星期日</span>
+            <div class="blog-slider__title">17~23℃</div>
+            <div class="blog-slider__text">无边落木萧萧下，不尽长江滚滚来. </div>
+            <span class="blog-slider__button">右滑获取更多内容</span>
+          </div>
+        </div>
+        <div class="blog-slider__item swiper-slide">
+          <div class="blog-slider__img">
+            <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759871/alessandro-capuzzi-799180-unsplash.jpg" alt="">
+          </div>
+          <div class="blog-slider__content">
+            <span class="blog-slider__code">2021年3月5日 正月廿二 星期五</span>
+            <div class="blog-slider__title">15~26℃</div>
+            <div class="blog-slider__text">将错就错,或者将计就计,反正将就了. </div>
+            <span class="blog-slider__button">右滑获取更多内容</span>
+          </div>
+        </div>
+        <div class="blog-slider__item swiper-slide">
+          <div class="blog-slider__img">
+            <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759871/alessandro-capuzzi-799180-unsplash.jpg" alt="">
+          </div>
+          <div class="blog-slider__content">
+            <span class="blog-slider__code">2021年3月8日 正月廿五 星期一</span>
+            <div class="blog-slider__title">12~24℃</div>
+            <div class="blog-slider__text">今天是妇女节，祝福我妈天天快乐. </div>
+            <span class="blog-slider__button">右滑获取更多内容</span>
+          </div>
+        </div>
+        <div class="blog-slider__item swiper-slide">
+          <div class="blog-slider__img">
+            <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759871/alessandro-capuzzi-799180-unsplash.jpg" alt="">
+          </div>
+          <div class="blog-slider__content">
+            <span class="blog-slider__code">2021年3月12日 正月廿九 星期五</span>
+            <div class="blog-slider__title">16~24℃</div>
+            <div class="blog-slider__text">迎着太阳微笑,却被晃了眼睛. </div>
+            <span class="blog-slider__button">右滑获取更多内容</span>
+          </div>
+        </div>
+        <div class="blog-slider__item swiper-slide">
+          <div class="blog-slider__img">
+            <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759871/alessandro-capuzzi-799180-unsplash.jpg" alt="">
+          </div>
+          <div class="blog-slider__content">
+            <span class="blog-slider__code">2021年3月13日 二月初一 星期六</span>
+            <div class="blog-slider__title">13~24℃</div>
+            <div class="blog-slider__text"> 写博客可以帮你建立写作习惯. </div>
+            <span class="blog-slider__button">右滑获取更多内容</span>
+          </div>
+        </div>
+        <div class="blog-slider__item swiper-slide">
+          <div class="blog-slider__img">
+            <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759871/alessandro-capuzzi-799180-unsplash.jpg" alt="">
+          </div>
+          <div class="blog-slider__content">
+            <span class="blog-slider__code">2021年3月14日 二月初二 星期日</span>
+            <div class="blog-slider__title">15~25℃</div>
+            <div class="blog-slider__text">唾弃软弱的自己，却无法做到狠心的地步. </div>
             <span class="blog-slider__button">右滑获取更多内容</span>
           </div>
         </div>
@@ -326,5 +406,28 @@ export default {
 
   }
 
+}
+.page-title {
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	display: flex;
+	justify-content: center;
+	h1 {
+		font-size: 1.75rem;
+		font-weight: 700;
+		color: #f8f3eb;
+		text-align: center;
+		position: relative;
+
+		&:after {
+			content: "";
+			display: block;
+			position: absolute;
+			width: 100%;
+			bottom: -3px;
+			height: 2px;
+			background-color: currentcolor;
+		}
+	}
 }
 </style>
